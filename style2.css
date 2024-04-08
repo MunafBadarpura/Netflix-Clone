@@ -1,0 +1,90 @@
+/* CHATGPT RESPONSIVE CODE */
+@media only screen and (max-width: 768px) {
+    nav {
+        max-width: 90%;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+    nav img {
+        margin-bottom: 10px;
+    }
+    nav div {
+        margin-top: 10px;
+    }
+    .hero {
+        padding: 0 20px;
+        text-align: center;
+    }
+    .hero > * {
+        font-size: 24px;
+    }
+    .main {
+        background-size: cover;
+    }
+    .first, .second, .third, .forth {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        height: auto;
+    }
+    .firstImg img, .firstImg video {
+        width: 100%;
+        height: auto;
+    }
+    .firstImg {
+        position: relative;
+        margin-bottom: 20px;
+    }
+    .texts {
+        margin-bottom: 20px;
+    }
+    .faqbox {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+    .faqbox span:first-child {
+        margin-bottom: 10px;
+    }
+    .faqbox span:last-child {
+        margin-left: 0;
+    }
+    .faqbox i {
+        margin-left: auto;
+    }
+    footer {
+        padding: 20px;
+    }
+    .footer-items a {
+        font-size: 12px;
+    }
+}
+
+/* For even smaller screens */
+@media only screen and (max-width: 480px) {
+    .hero > * {
+        font-size: 20px;
+        padding: 0 10px;
+    }
+    .main input {
+        padding: 7px 10px;
+    }
+    .text1 {
+        font-size: 24px;
+    }
+    .text2 {
+        font-size: 16px;
+    }
+    .faq h2 {
+        font-size: 30px;
+    }
+    .faqbox {
+        font-size: 16px;
+    }
+    .ready {
+        font-size: 14px;
+    }
+}
+
+/* Additional adjustments for smaller screens can be added here */
