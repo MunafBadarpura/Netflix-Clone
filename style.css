@@ -16,6 +16,8 @@ body{
     background-size: max(1200px, 100vw);
     background-repeat: no-repeat;
 }
+
+
 .main .box{
     height: 99vh;  /* 60vh */
     width: 100%;
